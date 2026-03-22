@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Samsung S26 Ultra</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #111;
+      color: white;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      display: flex;
+      background: #1e1e1e;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      max-width: 800px;
+    }
+
+    .card img {
+      width: 350px;
+      object-fit: cover;
+    }
+
+    .info {
+      padding: 20px;
+    }
+
+    .info h1 {
+      margin-top: 0;
+      color: #00bcd4;
+    }
+
+    .info p {
+      line-height: 1.6;
+    }
+
+    .specs {
+      margin-top: 15px;
+    }
+
+    .specs li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Samsung Phone">
+  <div class="info">
+    <h1>Samsung S26 Ultra</h1>
+    <p>Samsung S26 Ultra — bu eng yangi va kuchli flagman smartfonlardan biri. U zamonaviy dizayn, kuchli kamera va yuqori tezlikdagi ishlashi bilan ajralib turadi.</p>
+
+    <ul class="specs">
+      <li>📱 Ekran: 6.9" Dynamic AMOLED</li>
+      <li>⚡ Protsessor: Exynos / Snapdragon (eng yangi)</li>
+      <li>📸 Kamera: 200MP + zoom</li>
+      <li>🔋 Batareya: 5000mAh</li>
+      <li>💾 Xotira: 12GB / 16GB RAM</li>
+      <li>📡 5G qo‘llab-quvvatlaydi</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
