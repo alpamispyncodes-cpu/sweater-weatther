@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Instagram Clone</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #fafafa;
+      margin: 0;
+    }
+    header {
+      background: white;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .container {
+      width: 400px;
+      margin: 20px auto;
+    }
+    .post {
+      background: white;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+    .post img {
+      width: 100%;
+    }
+    .post .info {
+      padding: 10px;
+    }
+    .like {
+      cursor: pointer;
+      color: gray;
+    }
+    .like.liked {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+<header>Mini Instagram</header>
+
+<div class="container">
+  <div class="post">
+    <img src="https://picsum.photos/400/300" />
+    <div class="info">
+      <p><b>user1</b></p>
+      <p>Beautiful day!</p>
+      <p class="like" onclick="likePost(this)">♥ Like</p>
+    </div>
+  </div>
+
+  <div class="post">
+    <img src="https://picsum.photos/400/301" />
+    <div class="info">
+      <p><b>user2</b></p>
+      <p>My new photo!</p>
+      <p class="like" onclick="likePost(this)">♥ Like</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function likePost(el) {
+  el.classList.toggle('liked');
+  if (el.classList.contains('liked')) {
+    el.innerText = '♥ Liked';
+  } else {
+    el.innerText = '♥ Like';
+  }
+}
+</script>
+
+</body>
+</html>
