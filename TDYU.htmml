@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDYU haqqinda</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: rgba(0,0,0,0.5);
+    }
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00c6ff;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.7);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TDYU – Tashkent Davlat Yuridik Universiteti</h1>
+  <p>Keleshegingizni huquq penen baslan!</p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>Universitet haqqinda</h2>
+    <p>Toshkent Davlat Yuridik Universiteti – O'zbekistandagi en zor huquq maydanlarinin biri bolip esaplanadi. Bul jerde professional yuristler, advokatlar ham sudyalar tayyarlanadi.</p>
+  </div>
+
+  <div class="card">
+    <h2>Kiriw ushin ballari</h2>
+    <p>TDYU ga kiriw ushin joqari ball talap qiladi. Ortasha 180+ ball jiynaw naslahed etiledi. Har jili ballar ozgerib turadi.</p>
+  </div>
+
+  <div class="card">
+    <h2>Kim boliw mumkin?</h2>
+    <ul>
+      <li>Advokat</li>
+      <li>Sudya</li>
+      <li>Prokuror</li>
+      <li>Natarius</li>
+      <li>Huquqshi</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Nege TDYU?</h2>
+    <p>✔ Kushli bilim
+    <br>✔ Zamanagoy sharayatlar
+    <br>✔ Xalqara imkaniyatlar
+    <br>✔ Juqari darejedegi ustazlar</p>
+  </div>
+</section>
+</body>
+</html>
