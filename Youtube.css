@@ -1,0 +1,40 @@
+
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+}
+
+.navbar {
+  background: #202020;
+  padding: 15px;
+  text-align: center;
+}
+
+.video-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+video {
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+
+// script.js
+const video = document.getElementById('video');
+
+// Video ustiga bosilganda play/pause
+video.addEventListener('click', () => {
+  if (video.paused) {
+    video.play();
+  } else {
+    video.pause();
+  }
+});
+
+// Sahifa ochilganda avtomatik tayyor turadi
+video.volume = 0.5;
